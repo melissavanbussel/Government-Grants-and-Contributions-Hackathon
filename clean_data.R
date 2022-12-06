@@ -25,4 +25,4 @@ table1 <- table1 %>%
   relocate(value, .after = indicator)
 
 # Save results
-write.csv(table1, "Table_clean.csv")
+write.csv(table1, "Table_clean.csv", row.names = FALSE)
